@@ -1,0 +1,49 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold ;
+}
+
+.BtN {
+  display: inline-block;
+  padding: 15px;
+  font-size: 18px;
+  border: 1px solid #183153;
+  color: white;
+  border-radius: 3px;
+  box-shadow: 3px 3px #183153;
+  text-decoration: none;
+}
+
+.blue{
+  background: #80cfff;  
+}
+
+.yellow{
+  background: #ffc23f;
+}
+
+.text{
+  margin-right: 75px;
+  font-size: 16px;
+}
+
+.blue:hover{
+  background: #4ebbff;
+}
+
+.yellow:hover{
+  background: #ffad01;
+}
+
+.BtN:active{
+  background: #183153;
+  box-shadow: none;
+}
+
+.blue:active{
+  color: #fff;
+}
+
+.yellow:active{
+  color: #ffc23f;
+}
